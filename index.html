@@ -12,6 +12,9 @@
     <!-- link to stylesheet (always require after Bootstrap) -->
     <link rel="stylesheet" href="style.css">
 
+    <!--Custom Google Font-->
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
     <!-- link to javascript file -->
     <script type="text/javascript" src="ticTacToe.js"></script>
 
@@ -21,10 +24,14 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-md-12">
-          <h1>Tic Tac Toe</h1>
+          <h1 id="headline">Tic Tac Toe</h1>
+          <br />
+          <center><button type="button" class="btn btn-success">Clear Board</button></center>
+          <br />
           <hr>
         </div>
       </div>
+
       <div class="row">
 
         <!-- a column represents our game board -->
@@ -50,13 +57,21 @@
             <div id="row3col2" class="col-xs-4 box"></div>
             <div id="row3col3" class="col-xs-4 box"></div>
           </div>
+
         </div>
       </div>
+
       <div class="row">
-        <div class="btn-group" role="group" aria-label="...">
-        <center><button type="button" class="btn btn-default">Reset</button></center>
+        <hr>
+        <div="col-s-12">
+        <h1><center>Scorecard</center><h1>
+          <p><center>Player X:<center><p>
+            <p id="playerxscorecard"><center></center></p>
+          <p><center>Player O:<center></p>
+            <p id="playeryscorecard"><center></center></p>
         </div>
-    </div>
+      </div>
+
     </div>
   </body>
 </html>
