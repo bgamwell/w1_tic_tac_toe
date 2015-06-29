@@ -23,7 +23,7 @@ For your first weekend lab, we'll be making a tic-tac-toe game using your knowle
 4. The next step is to create the tic-tac-toe game-play with JavaScript:
 	* First locate DOM elements before trying to use them in your app. Think about using `querySelector` or `querySelectorAll` to locate your target elements. Try this in your console to make sure your selection works.
 	* After finding the elements, start writing logic using `addEventListener` to set up `click` events for those elements.
-	* You will also need a variable to keep track of moves. This will be used to indicate whether or not to draw an `X` or an `O`.
+	* You will also need a variable to keep track of moves. This will be used to indicate whether or not to draw an `X` or an `O`. <!--Odd moves mark and O, and even moves mark an X-->
 
 ## Bonus
 * Display a message to indicate which turn is about to be played.
